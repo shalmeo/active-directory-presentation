@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Shower Presentation Engine</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="shower/themes/ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 9);
+        }
+    </style>
+</head>
+<body class="shower list">
+
+    <header class="caption">
+        <h1>Active Directory</h1>
+        <p>Алгаев Шамиль САкф-201</p>
+    </header>
+    
+    <section class="slide clear">
+        <img class="cover w h" src="./assets/workgroup.png" alt="workgroup">
+    </section>
+
+    <section class="slide">
+        <h2>Домменные службы Active Directory</h2>
+        <p>Домменные службы Active Directory - служба каталогов разработанная компанией Microsoft.</p>
+        <p>
+            Домменные службы Active Directory используется для централизованного управления
+            IT-инфрастуркурной организации. Например, централизованное управление администрирования
+            учетных записей и персональных компьютеров пользователей.
+        </p>
+    </section>
+
+    <section class="slide clear">
+        <img class="cover w h" src="./assets/ad.png" alt="ad">
+    </section>
+
+    <section class="slide">
+        <h2>Структура Active Directory</h2>
+        <p>
+            Служба каталогов Active Directory имеет иерархическую стурктуру
+            состоящую из следующих компонентов:
+        <ul>
+            <li>Домен</li>
+            <li>Контроллер домена</li>
+            <li>Лес доменов</li>
+            <li>Дерево доменов</li>
+        </ul>
+        </p>
+    </section>
+
+
+    <div class="progress"></div>
+
+    <script src="shower/shower.js"></script>
+</body>
+</html>
